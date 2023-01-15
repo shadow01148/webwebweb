@@ -1,6 +1,9 @@
 <script lang="ts">
 	import navlogo from '$lib/assets/img/logo.png';
 	import logo from '$lib/assets/img/apple-touch-icon.png';
+	import sourceengine from '$lib/assets/img/halflife.jpg';
+	import mindus from '$lib/assets/img/mindustry.webp';
+	import mc from '$lib/assets/img/minecraft.jfif';
 
 	function switchMode() {
 		const element = document.getElementById("mood") as HTMLInputElement;
@@ -24,7 +27,7 @@
 	<div class="navbar-start">
 		<div class="flex-1">
 			<a href="/" class="btn btn-ghostnormal-case transition-all text-xl"
-				><img src={navlogo} width="250" height="300" alt="bg" /></a>
+				><img class="object-cover" src={navlogo} width="250" height="300" alt="bg" /></a>
 		</div>	
 	</div>
 	<div class="navbar-center hidden lg:flex">
@@ -44,7 +47,7 @@
 
 <div class="card bg-base-100 h-96 shadow-xl">
 	<div class="card-body">
-		<h1 class="font-extrabold text-5xl h-18 text-center">Secure, flexible and reliable</h1><h1  class="font-extrabold text-transparent bg-clip-text text-5xl h-16 text-center bg-gradient-to-r from-green-200 via-green-300 to-blue-500">Yeet Hosting.</h1>
+		<h1 class="font-extrabold sm:text-4xl md:text-5xl sm:h-16 md:h-16 text-center">Secure, flexible and reliable</h1><h1  class="font-extrabold sm:h-18 sm:w-18 md:h-24 text-transparent bg-clip-text sm:text-4xl md:text-5xl text-center bg-gradient-to-r from-green-200 via-green-300 to-blue-500">Yeet Hosting.</h1>
 		<p class="text-3xl text-center">lol explanation here</p>
 </div>
 </div>
@@ -85,7 +88,7 @@
 			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full">
 				<figure>
 					<img
-						src="https://mindustrygame.github.io/2.0d4f9a35.webp"
+						src={mindus}
 						width="400"
 						height="225"
 						alt="Mindustry"
@@ -100,11 +103,12 @@
 					</p>
 				</div>
 			</div>
+			<br>
 			<!-- Minecraft Card -->
 			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full">
 				<figure>
 					<img
-						src="https://store-images.s-microsoft.com/image/apps.608.13510798885735219.cf55aeca-e690-41e0-a88b-41b0e517a3be.c94e1bfa-1b68-4cf5-9954-f967168480b4?q=90&w=400&h=225"
+						src={mc}
 						alt="Minecraft"
 					/>
 				</figure>
@@ -114,11 +118,12 @@
 					<p>Minecraft Servers using Yeet Hosting can use up to 70 mods.</p>
 				</div>
 			</div>
+			<br>
 			<!-- Source Engine Card -->
 			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full">
 				<figure>
 					<img
-						src="https://cdn.akamai.steamstatic.com/half-life.com/images/halflife2/halflife2_1.jpg"
+						src={sourceengine}
 						width="400"
 						height="255"
 						alt="Source Engine"
@@ -130,6 +135,7 @@
 					<p>Yeah! thats right, you can create a server on your favorite steam games!</p>
 				</div>
 			</div>
+			<br>
 			<!-- ETC -->
 			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full">
 				<figure><img src={logo} width="400" height="255" alt="ETC" /></figure>
@@ -140,9 +146,11 @@
 					<p>For developers, we also offer a cheap plan to get started.</p>
 				</div>
 			</div>
+			<br>
 		</div>
 	</div>
 </div>
+
 
 <footer class="footer p-10 bg-base-200 text-base-content">
 	<div>
@@ -155,4 +163,5 @@
 		<a href="#services" class="link link-hover">Our Services</a>
 	</div>
 </footer>
+
 </html>
