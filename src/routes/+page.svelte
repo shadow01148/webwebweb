@@ -8,13 +8,17 @@
 
 		if (element.checked) {
 			input?.setAttribute('data-theme', 'night');		
+			window.localStorage.setItem('theme', 'night');
 		} else {
-			input?.setAttribute('data-theme', 'light');
+			input?.setAttribute('data-theme', 'cupcake');
+			window.localStorage.setItem('theme', 'cupcake');
 		}
 	}
+	const theme = typeof window !== 'undefined' ? localStorage.theme : null;
 </script>
 
-<html id="fordata" data-theme="night" class="scroll-smooth" lang="en">
+{@html '<!-- theme variable to be used in the future -->'}
+<html id="fordata" data-theme="" class="scroll-smooth" lang="en">
 
 <div class="navbar bg-base-300">
 	<div class="navbar-start">
