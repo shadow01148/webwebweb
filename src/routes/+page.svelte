@@ -23,7 +23,7 @@
 <div class="navbar bg-base-300">
 	<div class="navbar-start">
 		<div class="flex-1">
-			<a href="/" class="btn btn-ghostnormal-case text-xl"
+			<a href="/" class="btn btn-ghostnormal-case transition-all text-xl"
 				><img src={navlogo} width="250" height="300" alt="bg" /></a>
 		</div>	
 	</div>
@@ -72,11 +72,6 @@
 			we have everything you need to get your application up and running in no time.
 			<br />
 			<br />
-			<ul>
-				<li>Danbot Hosting</li>
-				<li>Quackhost.uk</li>
-				<li>HostMC4Free</li>
-			</ul>
 		</article>
 	</div>
 </div>
