@@ -9,6 +9,7 @@
 
   <div class="navbar bg-base-300">
 	<div class="navbar-start">
+		<img class="object-cover" src={navlogo} width="250" height="300" alt="bg" />	
 	  <div class="dropdown">
 		<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 		<!-- svelte-ignore a11y-label-has-associated-control -->
@@ -20,14 +21,12 @@
 		  <li><a href="/#about">About</a></li>
 		  <li><a href="/#services">Services</a></li>
 		</ul>
-	  </div>
-	  <img class="object-cover" src={navlogo} width="250" height="300" alt="bg" />	
-	</div>
+	  </div>	</div>
 	<div class="navbar-center hidden md:visible lg:visible lg:flex">
 		<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-		<ul tabindex="0" class="menu menu-horizontal px-1">
-			<li><a href="/#about" class="btn btn-info">About</a></li>
-			<li><a href="/#services" class="btn btn-info">Services</a></li>
+		<ul tabindex="0" class="menu menu-horizontal px-1 space-x-4">
+			<li><a href="/#about" class="btn bt">About</a></li>
+			<li><a href="/#services" class="btn bt">Services</a></li>
 		  </ul>
 	</div>
 	<div class="navbar-end">
