@@ -3,6 +3,8 @@
 	import mindus from '$lib/assets/img/mindustry.webp';
 	import mc from '$lib/assets/img/minecraft.jfif';
 	import logo from '$lib/assets/img/apple-touch-icon.png';
+	import rt from '$lib/assets/img/testimonials/testimonials-1.jpg';
+	import schutz from '$lib/assets/img/testimonials/testimonials-2.jpg';
 </script>
 
 <div class="card bg-base-100 transition-shadow shadow-xl">
@@ -74,7 +76,7 @@
 
 <div id="services" class="card lg:card-side bg-base-100 shadow-xl">
 	<div class="card-body">
-		<h1 class="card-title font-bold text-3xl">Services</h1>
+		<h1 class="card-title font-bold text-3xl flex flex-wrap justify-center">Services</h1>
 		<div class="divider" />
 		<div class="flex flex-row flex-wrap sm:justify-evenly md:justify-between">
 			<!-- Mindustry Card -->
