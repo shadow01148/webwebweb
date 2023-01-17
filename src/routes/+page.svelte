@@ -156,6 +156,7 @@
 						We are experts in doing this service, just ask us to set your server up after buying,
 						its free.
 					</p>
+					<h2 class="card-title text-3xl">$3 / Month</h2>
 				</div>
 			</div>
 			<br />
@@ -168,6 +169,7 @@
 					<h2 class="card-title">Minecraft Hosting</h2>
 					<div class="divider" />
 					<p>Minecraft Servers using Yeet Hosting can use up to 70 mods.</p>
+					<h2 class="card-title text-3xl">$6 / Month</h2>
 				</div>
 			</div>
 			<br />
@@ -180,6 +182,7 @@
 					<h2 class="card-title">Source Engine Hosting</h2>
 					<div class="divider" />
 					<p>Yeah! thats right, you can create a server on your favorite steam games!</p>
+					<h2 class="card-title text-3xl">$? / Month</h2>
 				</div>
 			</div>
 			<br />
@@ -191,6 +194,7 @@
 					<div class="badge badge-secondary">NEW</div>
 					<div class="divider" />
 					<p>For developers, we also offer a cheap plan to get started.</p>
+					<h2 class="card-title text-3xl">$? / Month</h2>
 				</div>
 			</div>
 			<br />
