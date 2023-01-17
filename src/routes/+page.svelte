@@ -9,15 +9,24 @@
 <div class="card bg-base-100 transition-shadow shadow-xl">
 	<div class="card-body text-center">
 		<h1 class="font-extrabold text-4xl sm:text-2xl md:text-4xl text-center">
-			Secure, flexible and reliable
+			Secure, flexible, reliable
 		</h1>
 		<h1
-			class="font-extrabold text-4xl sm:text-2xl md:text-6xl md:align-top sm:h-28 text-transparent bg-clip-text text-center bg-gradient-to-r from-yellow-500 via-purple-500 to-blue-500"
+			class="
+			font-extrabold text-4xl m-2 p-1
+			sm:text-2xl md:text-6xl sm:h-28 
+			text-transparent bg-clip-text text-center 
+			bg-gradient-to-r from-yellow-500 via-purple-500 to-blue-500
+			"
 		>
 			Yeet Hosting.
 		</h1>
-		<div class="justify-center flex flex-wrap sm:justify-evenly md:justify-between md:gap-4">
-			<div class="card border-2 bg-base-100 sm:w-48 md:w-72 border-red-500 shadow-xl">
+		<div class="justify-center
+		 flex flex-wrap
+		  sm:justify-evenly md:justify-between
+		  m-2 p-1
+		  ">
+			<div class="card border-2 bg-base-100 sm:w-48 md:w-72 border-red-500 shadow-xl m-2">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
@@ -38,7 +47,7 @@
 					</h2>
 				</div>
 			</div>
-			<div class="card bg-base-100 sm:w-48 md:w-72 border-2 border-blue-500 shadow-xl ">
+			<div class="card bg-base-100 sm:w-48 md:w-72 border-2 border-blue-500 shadow-xl m-2">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
@@ -59,7 +68,7 @@
 					</h2>
 				</div>
 			</div>
-			<div class="card bg-base-100 sm:w-48 md:w-72 border-2 border-white shadow-xl ">
+			<div class="card bg-base-100 sm:w-48 md:w-72 border-2 border-white shadow-xl m-2">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
@@ -136,7 +145,7 @@
 		<div class="divider" />
 		<div class="flex flex-row flex-wrap sm:justify-evenly md:justify-between">
 			<!-- Mindustry Card -->
-			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full">
+			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full m-2">
 				<figure>
 					<img src={mindus} width="400" height="225" alt="Mindustry" />
 				</figure>
@@ -151,7 +160,7 @@
 			</div>
 			<br />
 			<!-- Minecraft Card -->
-			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full">
+			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full m-2">
 				<figure>
 					<img src={mc} alt="Minecraft" />
 				</figure>
@@ -163,7 +172,7 @@
 			</div>
 			<br />
 			<!-- Source Engine Card -->
-			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full">
+			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full m-2">
 				<figure>
 					<img src={sourceengine} width="400" height="255" alt="Source Engine" />
 				</figure>
@@ -175,7 +184,7 @@
 			</div>
 			<br />
 			<!-- ETC -->
-			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full">
+			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full m-2">
 				<figure><img src={logo} width="400" height="255" alt="ETC" /></figure>
 				<div class="card-body">
 					<h2 class="card-title">Discord Bot, Database, Voice Server Hosting</h2>
