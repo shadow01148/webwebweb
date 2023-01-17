@@ -49,7 +49,7 @@
 	<div>
 		<span class="footer-title">Legal</span>
 		<a href="/policy" class="link link-hover">Privacy Policy</a>
-		<a href="/#services" class="link link-hover">Terms and Conditions of Use</a>
+		<a href="/terms" class="link link-hover">Terms and Conditions of Use</a>
 	</div>
 </footer>
 </html>	
