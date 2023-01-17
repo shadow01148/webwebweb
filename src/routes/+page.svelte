@@ -5,12 +5,44 @@
 	import logo from '$lib/assets/img/apple-touch-icon.png';
 </script>
 
-<div class="card bg-base-100 h-96 shadow-xl">
+<div class="card bg-base-100 transition-shadow shadow-xl">
 	<div class="card-body">
-		<h1 class="font-extrabold text-5xl sm:h-16 md:h-16 text-center">Secure, flexible and reliable</h1>
-		<h1 class="font-extrabold sm:h-20 sm:w-18 md:h-26 text-transparent bg-clip-text md:text-6xl sm:text-4xl text-center bg-gradient-to-r from-green-200 via-green-300 to-blue-500">Yeet Hosting.</h1>
-		<p class="text-3xl text-center">lol explanation here</p>
-</div>
+		<h1 class="font-extrabold text-4xl sm:text-2xl md:text-4xl sm:h-20 text-center">Secure, flexible and reliable</h1>
+		<h1 class="font-extrabold text-4xl sm:text-2xl md:text-6xl sm:h-20 text-transparent bg-clip-text text-center bg-gradient-to-r from-yellow-500 via-purple-500 to-blue-500">Yeet Hosting.</h1>
+		<div class="justify-center flex flex-wrap sm:justify-evenly md:justify-between">
+		<div class="card bg-base-100 sm:w-48 md:w-72 shadow-xl">
+			<div class="card-body">
+			
+			  <h2 class="card-title">
+				<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 stroke-red-500">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+			  	</svg>
+			   	24/7 Support
+				</h2>
+			</div>
+		  </div>
+		  <div class="card bg-base-100 sm:w-48 md:w-72 shadow-xl">
+			<div class="card-body">
+			  <h2 class="card-title">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 stroke-blue-500">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+			  	</svg>
+			  	Low Ping 
+				</h2>
+			</div>
+		  </div>
+		  <div class="card bg-base-100 sm:w-48 md:w-72 shadow-xl">
+			<div class="card-body">
+			  <h2 class="card-title">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+			  </svg>
+			  Fast Transfer Rate
+			  </h2>
+			</div>
+		  </div>
+		  </div>	
+	</div>	
 </div>
 
 <div id="about" class="card lg:card-side h-1/4 bg-base-200 shadow-xl">
