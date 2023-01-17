@@ -46,5 +46,10 @@
 		<a href="/#about" class="link link-hover">About Us</a>
 		<a href="/#services" class="link link-hover">Our Services</a>
 	</div>
+	<div>
+		<span class="footer-title">Legal</span>
+		<a href="/policy" class="link link-hover">Privacy Policy</a>
+		<a href="/#services" class="link link-hover">Terms and Conditions of Use</a>
+	</div>
 </footer>
 </html>	
