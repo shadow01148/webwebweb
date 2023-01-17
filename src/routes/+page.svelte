@@ -81,7 +81,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="one" class="card-body">
+		<div class="card-body">
 			<div class="w-full flex flex-col items-center justify-center">
 				<h1 class="text-2xl leading-relaxed text-center w-4/5 transition-all">
 					"Yeet Hosting is just amazing, it has great ping and its better than what i was previously
