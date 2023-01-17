@@ -12,12 +12,12 @@
 			Secure, flexible and reliable
 		</h1>
 		<h1
-			class="font-extrabold text-4xl sm:text-2xl md:text-6xl md:align-top sm:h-20 text-transparent bg-clip-text text-center bg-gradient-to-r from-yellow-500 via-purple-500 to-blue-500"
+			class="font-extrabold text-4xl sm:text-2xl md:text-6xl md:align-top sm:h-20  text-transparent bg-clip-text text-center bg-gradient-to-r from-yellow-500 via-purple-500 to-blue-500"
 		>
 			Yeet Hosting.
 		</h1>
 		<div class="justify-center flex flex-wrap sm:justify-evenly md:justify-between">
-			<div class="card bg-base-100 sm:w-48 md:w-72 shadow-xl">
+			<div class="card border-2 bg-base-100 sm:w-48 md:w-72 border-red-500 shadow-xl shadow-red-500">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
@@ -38,7 +38,7 @@
 					</h2>
 				</div>
 			</div>
-			<div class="card bg-base-100 sm:w-48 md:w-72 shadow-xl">
+			<div class="card bg-base-100 sm:w-48 md:w-72 border-2 border-blue-500 shadow-xl shadow-blue-500">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
@@ -59,7 +59,7 @@
 					</h2>
 				</div>
 			</div>
-			<div class="card bg-base-100 sm:w-48 md:w-72 shadow-xl">
+			<div class="card bg-base-100 sm:w-48 md:w-72 border-2 border-white shadow-xl shadow-white">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
