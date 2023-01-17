@@ -43,8 +43,8 @@
 	</div>
 	<div>
 		<span class="footer-title">Company</span>
-		<a href="#about" class="link link-hover">About Us</a>
-		<a href="#services" class="link link-hover">Our Services</a>
+		<a href="/#about" class="link link-hover">About Us</a>
+		<a href="/#services" class="link link-hover">Our Services</a>
 	</div>
 </footer>
 </html>	
