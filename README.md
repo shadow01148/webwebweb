@@ -6,11 +6,11 @@ Running:
 
 `npm install`
 \
-`npm run dev` - Development
+`npm run dev` - Development (This is SSR, Server-side rendering)
 \
 `npm run build` - Production
 \
-`npm run preview` - Run after production
-\
+`npm run preview` - Run after production (This is static)
+
 ### Watch this video:
 https://www.youtube.com/watch?v=lHZwlzOUOZ4
