@@ -6,27 +6,29 @@
 	import rt from '$lib/assets/img/testimonials/testimonials-1.jpg';
 </script>
 
-<div class="card bg-base-100 transition-shadow shadow-xl">
+<div class="card bg-base-100 shadow-xl transition-shadow">
 	<div class="card-body text-center">
-		<h1 class="font-extrabold text-4xl sm:text-2xl md:text-4xl text-center">
+		<h1 class="text-center text-4xl font-extrabold sm:text-2xl md:text-4xl">
 			Secure, flexible, reliable
 		</h1>
 		<h1
 			class="
-			font-extrabold text-4xl m-2 p-1
-			sm:text-2xl md:text-6xl sm:h-28 
-			text-transparent bg-clip-text text-center 
-			bg-gradient-to-r from-yellow-500 via-purple-500 to-blue-500
+			m-2 bg-gradient-to-r from-yellow-500 via-purple-500
+			to-blue-500 bg-clip-text p-1 
+			text-center text-4xl font-extrabold
+			text-transparent sm:h-28 sm:text-2xl md:text-6xl
 			"
 		>
 			Yeet Hosting.
 		</h1>
-		<div class="justify-center
+		<div
+			class="m-2
 		 flex flex-wrap
+		  justify-center p-1
 		  sm:justify-evenly md:justify-between
-		  m-2 p-1
-		  ">
-			<div class="card border-2 bg-base-100 sm:w-48 md:w-72 border-red-500 shadow-xl m-2">
+		  "
+		>
+			<div class="card m-2 border-2 border-red-500 bg-base-100 shadow-xl sm:w-48 md:w-72">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
@@ -35,7 +37,7 @@
 							viewBox="0 0 24 24"
 							stroke-width="1.5"
 							stroke="currentColor"
-							class="w-6 h-6 stroke-red-500"
+							class="h-6 w-6 stroke-red-500"
 						>
 							<path
 								stroke-linecap="round"
@@ -47,7 +49,7 @@
 					</h2>
 				</div>
 			</div>
-			<div class="card bg-base-100 sm:w-48 md:w-72 border-2 border-blue-500 shadow-xl m-2">
+			<div class="card m-2 border-2 border-blue-500 bg-base-100 shadow-xl sm:w-48 md:w-72">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
@@ -56,7 +58,7 @@
 							viewBox="0 0 24 24"
 							stroke-width="1.5"
 							stroke="currentColor"
-							class="w-6 h-6 stroke-blue-500"
+							class="h-6 w-6 stroke-blue-500"
 						>
 							<path
 								stroke-linecap="round"
@@ -68,7 +70,7 @@
 					</h2>
 				</div>
 			</div>
-			<div class="card bg-base-100 sm:w-48 md:w-72 border-2 border-white shadow-xl m-2">
+			<div class="card m-2 border-2 border-white bg-base-100 shadow-xl sm:w-48 md:w-72">
 				<div class="card-body">
 					<h2 class="card-title">
 						<svg
@@ -77,7 +79,7 @@
 							viewBox="0 0 24 24"
 							stroke-width="1.5"
 							stroke="currentColor"
-							class="w-6 h-6"
+							class="h-6 w-6"
 						>
 							<path
 								stroke-linecap="round"
@@ -91,20 +93,20 @@
 			</div>
 		</div>
 		<div class="card-body">
-			<div class="w-full flex flex-col items-center justify-center">
-				<h1 class="text-2xl leading-relaxed text-center w-4/5 transition-all">
+			<div class="flex w-full flex-col items-center justify-center">
+				<h1 class="w-4/5 text-center text-2xl leading-relaxed transition-all">
 					"Yeet Hosting is just amazing, it has great ping and its better than what i was previously
 					using."
 				</h1>
-				<div class="flex items-center gap-5 h-20">
-					<div class="rounded-full w-12 h-12 bg-black overflow-hidden">
+				<div class="flex h-20 items-center gap-5">
+					<div class="h-12 w-12 overflow-hidden rounded-full bg-black">
 						<img alt="testimonial" src={rt} />
 					</div>
 					<div class="flex flex-col tracking-wider">
 						<!-- svelte-ignore a11y-label-has-associated-control -->
-						<label class=" font-bold text-base">RTOmega</label>
+						<label class=" text-base font-bold">RTOmega</label>
 						<!-- svelte-ignore a11y-label-has-associated-control -->
-						<label class="text-gray-400 font-normal text-sm">Omega Hub Owner</label>
+						<label class="text-sm font-normal text-gray-400">Omega Hub Owner</label>
 					</div>
 				</div>
 			</div>
@@ -112,12 +114,12 @@
 	</div>
 </div>
 
-<div id="about" class="card lg:card-side h-1/4 bg-base-200 shadow-xl">
+<div id="about" class="card h-1/4 bg-base-200 shadow-xl lg:card-side">
 	<div class="divider" />
 	<figure><img src={logo} alt="About" /></figure>
 	<div class="card-body">
 		<article class="prose">
-			<h1 class="card-title font-bold text-4xl text-center">About Us</h1>
+			<h1 class="card-title text-center text-4xl font-bold">About Us</h1>
 			<div class="divider" />
 			At Yeet Hosting, we are dedicated to providing the best hosting solutions for businesses and individuals
 			alike. We understand the importance of having a reliable and efficient application, and we are
@@ -139,13 +141,13 @@
 	</div>
 </div>
 
-<div id="services" class="card lg:card-side bg-base-100 shadow-xl">
+<div id="services" class="card bg-base-100 shadow-xl lg:card-side">
 	<div class="card-body">
-		<h1 class="card-title font-bold text-3xl flex flex-wrap justify-center">Services</h1>
+		<h1 class="card-title flex flex-wrap justify-center text-3xl font-bold">Services</h1>
 		<div class="divider" />
 		<div class="flex flex-row flex-wrap sm:justify-evenly md:justify-between">
 			<!-- Mindustry Card -->
-			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full m-2">
+			<div class="card image-full m-2 w-72 bg-base-100 shadow-xl hover:bg-base-300">
 				<figure>
 					<img src={mindus} width="400" height="225" alt="Mindustry" />
 				</figure>
@@ -161,7 +163,7 @@
 			</div>
 			<br />
 			<!-- Minecraft Card -->
-			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full m-2">
+			<div class="card image-full m-2 w-72 bg-base-100 shadow-xl hover:bg-base-300">
 				<figure>
 					<img src={mc} alt="Minecraft" />
 				</figure>
@@ -174,7 +176,7 @@
 			</div>
 			<br />
 			<!-- Source Engine Card -->
-			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full m-2">
+			<div class="card image-full m-2 w-72 bg-base-100 shadow-xl hover:bg-base-300">
 				<figure>
 					<img src={sourceengine} width="400" height="255" alt="Source Engine" />
 				</figure>
@@ -187,11 +189,11 @@
 			</div>
 			<br />
 			<!-- ETC -->
-			<div class="card w-72 bg-base-100 hover:bg-base-300 shadow-xl image-full m-2">
+			<div class="card image-full m-2 w-72 bg-base-100 shadow-xl hover:bg-base-300">
 				<figure><img src={logo} width="400" height="255" alt="ETC" /></figure>
 				<div class="card-body">
 					<h2 class="card-title">Discord Bot, Database, Voice Server Hosting</h2>
-					<div class="badge badge-secondary">NEW</div>
+					<div class="badge-secondary badge">NEW</div>
 					<div class="divider" />
 					<p>For developers, we also offer a cheap plan to get started.</p>
 					<h2 class="card-title text-3xl">$? / Month</h2>
