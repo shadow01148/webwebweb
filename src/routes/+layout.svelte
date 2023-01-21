@@ -30,7 +30,7 @@
 		  </ul>
 	</div>
 	<div class="navbar-end">
-	  <a href="https://discord.gg/yeet" class="btn">Get started</a>
+	  <a href="https://discord.gg/89Pc5BrgSd" class="btn">Get started</a>
 	</div>
   </div>
 
